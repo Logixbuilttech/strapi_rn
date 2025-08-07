@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "think_forwards",
+  "info": {
+    "singularName": "think-forward",
+    "pluralName": "think-forwards",
+    "displayName": "ThinkForward"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ThinkForward": {
+      "type": "dynamiczone",
+      "components": [
+        "layout.hero"
+      ]
+    },
+    "SEO": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    }
+  }
+}

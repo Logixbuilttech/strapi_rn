@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_layout_apply_ideas",
+  "info": {
+    "displayName": "ApplyIdea"
+  },
+  "options": {},
+  "attributes": {
+    "TitleWithShortText": {
+      "type": "component",
+      "component": "layout.titlewith-short-text",
+      "repeatable": false
+    },
+    "SubmitPitch": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

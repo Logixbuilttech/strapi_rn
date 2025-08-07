@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_layout_items_card_slug_pages",
+  "info": {
+    "displayName": "ItemsCardSlugPage"
+  },
+  "options": {},
+  "attributes": {
+    "smallTitle": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "blocks"
+    },
+    "TitleWithContent": {
+      "type": "component",
+      "component": "layout.rich-text-title-with-content",
+      "repeatable": true
+    },
+    "Button": {
+      "type": "component",
+      "component": "elements.button",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

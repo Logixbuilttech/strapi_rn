@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_layout_item_with_rich_texts",
+  "info": {
+    "displayName": "ItemWithRichText"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "blocks"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "Description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

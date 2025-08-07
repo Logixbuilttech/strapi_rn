@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_layout_verticale_sliders",
+  "info": {
+    "displayName": "VerticaleSlider"
+  },
+  "options": {},
+  "attributes": {
+    "SmallTitle": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "blocks"
+    },
+    "SliderItem": {
+      "type": "component",
+      "component": "layout.verticale-slider-item",
+      "repeatable": true
+    },
+    "Button": {
+      "type": "component",
+      "component": "elements.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_layout_image_with_text_cards",
+  "info": {
+    "displayName": "ImageWithTextCard"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Title": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

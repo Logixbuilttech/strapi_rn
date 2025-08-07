@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_layout_rich_text_title_with_contents",
+  "info": {
+    "displayName": "RichTextTitleWithContent"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "blocks"
+    },
+    "Content": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

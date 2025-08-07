@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_layout_policies",
+  "info": {
+    "displayName": "Policies"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "blocks"
+    },
+    "Info": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

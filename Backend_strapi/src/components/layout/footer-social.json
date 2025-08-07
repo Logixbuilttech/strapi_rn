@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_layout_footer_socials",
+  "info": {
+    "displayName": "FooterSocial"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "component",
+      "component": "elements.social-links",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

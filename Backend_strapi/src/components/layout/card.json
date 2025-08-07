@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_layout_cards",
+  "info": {
+    "displayName": "Card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "blocks"
+    },
+    "text": {
+      "type": "text"
+    },
+    "button": {
+      "type": "component",
+      "component": "elements.button",
+      "repeatable": false
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

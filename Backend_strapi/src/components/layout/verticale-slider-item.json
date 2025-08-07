@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_layout_verticale_slider_items",
+  "info": {
+    "displayName": "VerticaleSliderItem"
+  },
+  "options": {},
+  "attributes": {
+    "ItemContent": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

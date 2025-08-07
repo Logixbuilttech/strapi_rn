@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Home": {
+      "type": "dynamiczone",
+      "components": [
+        "layout.hero",
+        "layout.content-block",
+        "layout.feature-card",
+        "layout.feature-item",
+        "layout.step-item",
+        "layout.item",
+        "layout.target-audience-section"
+      ]
+    },
+    "SEO": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_layout_explore_capabilities",
+  "info": {
+    "displayName": "ExploreCapabilities"
+  },
+  "options": {},
+  "attributes": {
+    "Card": {
+      "type": "component",
+      "component": "layout.what-we-do-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

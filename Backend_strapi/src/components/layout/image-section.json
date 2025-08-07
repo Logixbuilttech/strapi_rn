@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_layout_image_sections",
+  "info": {
+    "displayName": "ImageSection"
+  },
+  "options": {},
+  "attributes": {
+    "leftText": {
+      "type": "string"
+    },
+    "RightText": {
+      "type": "blocks"
+    },
+    "ImageWithText": {
+      "type": "component",
+      "component": "layout.image-with-text-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

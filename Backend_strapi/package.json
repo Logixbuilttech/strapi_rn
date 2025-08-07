@@ -1,0 +1,46 @@
+{
+  "name": "cms",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@fourlights/strapi-plugin-deep-populate": "^1.6.2",
+    "@strapi/plugin-cloud": "5.16.1",
+    "@strapi/plugin-seo": "^2.0.8",
+    "@strapi/plugin-users-permissions": "5.16.1",
+    "@strapi/provider-email-nodemailer": "^5.20.0",
+    "@strapi/strapi": "5.16.1",
+    "better-sqlite3": "11.3.0",
+    "pg": "^8.16.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "strapi-provider-email-smtp": "^1.0.3",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "511e0720-a8d2-43a2-a21c-341a6616be69",
+    "installId": "f7bb6f6512896e9f3e5c2f53ecb144487bc76900202cca40e0ae19c3caca355e"
+  }
+}

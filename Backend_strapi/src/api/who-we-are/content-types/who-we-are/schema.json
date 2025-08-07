@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "who_we_ares",
+  "info": {
+    "singularName": "who-we-are",
+    "pluralName": "who-we-ares",
+    "displayName": "WhoWeAre"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "WhoWeAre": {
+      "type": "dynamiczone",
+      "components": [
+        "layout.hero",
+        "layout.card-with-logo",
+        "layout.goals-who-we-are",
+        "layout.feature-item-who-we-are"
+      ]
+    },
+    "SEO": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    }
+  }
+}

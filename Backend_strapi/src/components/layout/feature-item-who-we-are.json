@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_layout_feature_item_who_we_ares",
+  "info": {
+    "displayName": "FeatureItemWhoWeAre"
+  },
+  "options": {},
+  "attributes": {
+    "SubTitile": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Card": {
+      "type": "component",
+      "component": "layout.item-with-rich-text",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

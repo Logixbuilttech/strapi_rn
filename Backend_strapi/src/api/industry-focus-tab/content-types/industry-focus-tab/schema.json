@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_focus_tabs",
+  "info": {
+    "singularName": "industry-focus-tab",
+    "pluralName": "industry-focus-tabs",
+    "displayName": "IndustryFocusTab"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_layout_goals_who_we_ares",
+  "info": {
+    "displayName": "GoalsWhoWeAre"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "component",
+      "component": "layout.titlewith-short-text",
+      "repeatable": false
+    },
+    "Goals": {
+      "type": "component",
+      "component": "layout.titlewith-short-text",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

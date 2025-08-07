@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_layout_privacy_policies",
+  "info": {
+    "displayName": "PrivacyPolicy"
+  },
+  "options": {},
+  "attributes": {
+    "PrivacyPolicy": {
+      "type": "component",
+      "component": "layout.policies",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

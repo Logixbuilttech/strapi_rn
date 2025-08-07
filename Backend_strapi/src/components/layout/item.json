@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_layout_items",
+  "info": {
+    "displayName": "Item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "text": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

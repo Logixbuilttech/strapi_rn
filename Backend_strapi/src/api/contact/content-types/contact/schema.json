@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeroText": {
+      "type": "blocks"
+    },
+    "ContactForm": {
+      "type": "component",
+      "component": "layout.contact-form",
+      "repeatable": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_layout_partnership_faqs",
+  "info": {
+    "displayName": "PartnershipFaq"
+  },
+  "options": {},
+  "attributes": {
+    "LeftText": {
+      "type": "string"
+    },
+    "rightText": {
+      "type": "string"
+    },
+    "FAQ": {
+      "type": "component",
+      "component": "layout.faq",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

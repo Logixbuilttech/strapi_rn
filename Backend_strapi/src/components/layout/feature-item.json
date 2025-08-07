@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_layout_feature_items",
+  "info": {
+    "displayName": "FeatureItem"
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "blocks"
+    },
+    "Item": {
+      "type": "component",
+      "component": "layout.item",
+      "repeatable": true,
+      "required": true
+    }
+  },
+  "config": {}
+}

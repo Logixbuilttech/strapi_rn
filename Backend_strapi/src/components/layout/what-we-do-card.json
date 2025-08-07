@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_layout_what_we_do_cards",
+  "info": {
+    "displayName": "WhatWeDoCard"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "blocks"
+    },
+    "Content": {
+      "type": "blocks"
+    },
+    "Button": {
+      "type": "component",
+      "component": "elements.button",
+      "repeatable": false
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  },
+  "config": {}
+}

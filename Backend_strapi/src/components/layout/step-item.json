@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_layout_step_items",
+  "info": {
+    "displayName": "StepItem"
+  },
+  "options": {},
+  "attributes": {
+    "Step": {
+      "type": "component",
+      "component": "layout.step",
+      "repeatable": true
+    },
+    "text": {
+      "type": "text"
+    },
+    "Button": {
+      "type": "component",
+      "component": "elements.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

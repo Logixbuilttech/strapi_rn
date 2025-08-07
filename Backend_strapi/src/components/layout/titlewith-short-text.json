@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_layout_titlewith_short_texts",
+  "info": {
+    "displayName": "TitlewithShortText"
+  },
+  "options": {},
+  "attributes": {
+    "ShortText": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

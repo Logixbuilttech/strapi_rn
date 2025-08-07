@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "blocks"
+    },
+    "Slug": {
+      "type": "uid"
+    },
+    "SlugPageComponent": {
+      "type": "dynamiczone",
+      "components": [
+        "layout.content-block",
+        "layout.verticale-slider",
+        "layout.image-section",
+        "layout.items-card-slug-page"
+      ]
+    },
+    "SEO": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    }
+  }
+}

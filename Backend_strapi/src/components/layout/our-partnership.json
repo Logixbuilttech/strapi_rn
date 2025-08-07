@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_layout_our_partnerships",
+  "info": {
+    "displayName": "OurPartnership"
+  },
+  "options": {},
+  "attributes": {
+    "leftText": {
+      "type": "string"
+    },
+    "RightText": {
+      "type": "blocks"
+    },
+    "Card": {
+      "type": "component",
+      "component": "layout.image-with-text-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

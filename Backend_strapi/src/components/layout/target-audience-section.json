@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_layout_target_audience_sections",
+  "info": {
+    "displayName": "TargetAudienceSection"
+  },
+  "options": {},
+  "attributes": {
+    "Item": {
+      "type": "component",
+      "component": "layout.item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

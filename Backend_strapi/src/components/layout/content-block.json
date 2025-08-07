@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_layout_content_blocks",
+  "info": {
+    "displayName": "ContentBlock"
+  },
+  "options": {},
+  "attributes": {
+    "leftText": {
+      "type": "string"
+    },
+    "rightText": {
+      "type": "blocks",
+      "required": true
+    },
+    "subText": {
+      "type": "blocks"
+    },
+    "Background": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "config": {}
+}

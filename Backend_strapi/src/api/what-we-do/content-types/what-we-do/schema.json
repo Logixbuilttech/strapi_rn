@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "what_we_dos",
+  "info": {
+    "singularName": "what-we-do",
+    "pluralName": "what-we-dos",
+    "displayName": "WhatWeDo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "blocks"
+    },
+    "WhatWeDo": {
+      "type": "dynamiczone",
+      "components": [
+        "layout.content-block",
+        "layout.explore-capabilities",
+        "layout.feature-item"
+      ]
+    },
+    "SEO": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    }
+  }
+}

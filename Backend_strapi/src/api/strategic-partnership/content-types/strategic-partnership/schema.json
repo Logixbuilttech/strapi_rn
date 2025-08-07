@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "strategic_partnerships",
+  "info": {
+    "singularName": "strategic-partnership",
+    "pluralName": "strategic-partnerships",
+    "displayName": "StrategicPartnership"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "StrategicPartnership": {
+      "type": "dynamiczone",
+      "components": [
+        "layout.hero",
+        "layout.content-block",
+        "layout.titlewith-short-text",
+        "layout.our-partnership",
+        "layout.partnership-faq",
+        "layout.apply-idea"
+      ]
+    },
+    "SEO": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    }
+  }
+}

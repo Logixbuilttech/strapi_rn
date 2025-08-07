@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_elements_header_links",
+  "info": {
+    "displayName": "HeaderLink"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

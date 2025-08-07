@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "privacy_policies",
+  "info": {
+    "singularName": "privacy-policy",
+    "pluralName": "privacy-policies",
+    "displayName": "PrivacyPolicy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PrivacyPolicy": {
+      "type": "dynamiczone",
+      "components": [
+        "layout.hero",
+        "layout.privacy-policy"
+      ]
+    },
+    "SEO": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    }
+  }
+}

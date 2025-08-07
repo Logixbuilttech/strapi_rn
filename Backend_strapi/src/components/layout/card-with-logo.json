@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_layout_card_with_logos",
+  "info": {
+    "displayName": "CardWithLogo"
+  },
+  "options": {},
+  "attributes": {
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "Text": {
+      "type": "text"
+    },
+    "Button": {
+      "type": "component",
+      "component": "elements.button",
+      "repeatable": false
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  },
+  "config": {}
+}

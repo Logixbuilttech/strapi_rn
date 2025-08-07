@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "support_needed_tabs",
+  "info": {
+    "singularName": "support-needed-tab",
+    "pluralName": "support-needed-tabs",
+    "displayName": "SupportNeededTab"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

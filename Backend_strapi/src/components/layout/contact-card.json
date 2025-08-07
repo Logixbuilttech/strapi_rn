@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_layout_contact_cards",
+  "info": {
+    "displayName": "ContactCard"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "files",
+        "images"
+      ]
+    },
+    "Info": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

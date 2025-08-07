@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_layout_contact_forms",
+  "info": {
+    "displayName": "ContactForm"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Card": {
+      "type": "component",
+      "component": "layout.contact-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

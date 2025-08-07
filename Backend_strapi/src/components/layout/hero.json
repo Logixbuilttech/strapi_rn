@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_layout_heroes",
+  "info": {
+    "displayName": "Hero"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "blocks",
+      "required": true
+    },
+    "smallText": {
+      "type": "text"
+    },
+    "Button": {
+      "type": "component",
+      "component": "elements.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

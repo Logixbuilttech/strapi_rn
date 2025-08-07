@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_layout_steps",
+  "info": {
+    "displayName": "Step"
+  },
+  "options": {},
+  "attributes": {
+    "LeftText": {
+      "type": "blocks"
+    },
+    "RightText": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_layout_filterable_galleries",
+  "info": {
+    "displayName": "FilterableGallery"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "component": "layout.gallery-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
